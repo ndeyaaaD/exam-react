@@ -1,7 +1,7 @@
+
 import React from 'react';
 import './App.css';
 import './index.css';
-
 const App: React.FC = () => {
   return (
     <div className="hero-container">
@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
         <h1 className="main-title">
           Le <br />
-          <span className="brand-name">DAKAR LAUNCH</span>
+          <span className="brand-name">Gaston</span>
         </h1>
 
         <p className="description">
@@ -47,11 +47,11 @@ const App: React.FC = () => {
           </div>
           <div className="contact-item">
             <h3>TÉLÉPHONE</h3>
-            <p><a href="tel:+221338569875">+221 33 876 07 07</a></p>
+            <p><a href="tel:+221338000000">+221 33 800 00 00</a></p>
           </div>
           <div className="contact-item">
             <h3>ADRESSE</h3>
-            <p>Plateau,Dakar</p>
+            <p>Plateau, Rue Carnot, Dakar</p>
           </div>
         </div>
       </footer>
