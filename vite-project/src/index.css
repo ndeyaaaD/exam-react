@@ -1,0 +1,16 @@
+:root {
+  --gold: #c5a048;
+  --dark-bg: #1a1a1a;
+  --text-light: #ffffff;
+  --text-muted: #a0a0a0;
+}
+
+html {
+  scroll-behavior: smooth; /* Permet au clic sur CONTACT de descendre doucement */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--dark-bg);
+}

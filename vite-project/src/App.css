@@ -1,0 +1,162 @@
+
+
+/* Container Principal */
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle, #2a2a2a 0%, #121212 100%);
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo-small {
+  color: var(--gold);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+.btn-nav-reserve {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  padding: 8px 20px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+
+/* Hero Content */
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.subtitle {
+  color: var(--gold);
+  letter-spacing: 5px;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.brand-name {
+  color: var(--gold);
+  font-size: 4.5rem;
+  text-transform: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-bottom: 35px;
+}
+
+/* Boutons */
+.cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.btn-primary {
+  background-color: var(--gold);
+  color: #1a1a1a;
+  border: none;
+  padding: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid rgba(197, 160, 72, 0.4);
+  color: var(--gold);
+  padding: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* SECTION CONTACT (Footer) */
+.contact-section {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 80px;
+  border-top: 1px solid rgba(197, 160, 72, 0.15);
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-item h3 {
+  color: var(--gold);
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.contact-item p, .contact-item a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.scroll-indicator {
+  width: 1px;
+  height: 50px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  margin: 40px 0;
+}
