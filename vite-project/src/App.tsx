@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
         <h1 className="main-title">
           Le <br />
-          <span className="brand-name">Gaston</span>
+          <span className="brand-name">DAKAR LAUNCH </span>
         </h1>
 
         <p className="description">
@@ -43,7 +43,7 @@ const App: React.FC = () => {
         <div className="contact-grid">
           <div className="contact-item">
             <h3>NOM</h3>
-            <p>LE GASTON DAKAR</p>
+            <p>LE DAKAR LAUNCH </p>
           </div>
           <div className="contact-item">
             <h3>TÉLÉPHONE</h3>
@@ -51,7 +51,7 @@ const App: React.FC = () => {
           </div>
           <div className="contact-item">
             <h3>ADRESSE</h3>
-            <p>Plateau, Rue Carnot, Dakar</p>
+            <p>Plateau, Dakar</p>
           </div>
         </div>
       </footer>
